@@ -1,5 +1,8 @@
 ## TINY language Scanner & Parser project
 
+Note : “modules” file in “Executable/jdk-19/lib” does not download when cloning 
+because file is bigger than 100MB , So you need to download it alone to be downloaded 
+
 **How to use:**
 1. Download the **Executable** folder from the repository.
 2. Place the code you want to scan in a input.txt file and place it next to the exe file **main.exe**.
