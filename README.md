@@ -1,7 +1,13 @@
 ## TINY language Scanner & Parser project
 
-Note : “modules” file in “Executable/jdk-19/lib” does not download when cloning 
-because file is bigger than 100MB , So you need to download it alone to be downloaded 
+
+
+$\color{red}{Note\ :\ “modules”\ file\ in\ “Executable/jdk-19/lib”\ does\ not\ download\ when\ cloning\ 
+because\ file\ is\ bigger\ than\ 100MB\ }$
+$\color{red}{,\ So\ you\ need\ to\ download\ it\ alone\ to\ be\ downloaded }$
+
+
+
 
 **How to use:**
 1. Download the **Executable** folder from the repository.
