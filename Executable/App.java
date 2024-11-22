@@ -119,7 +119,7 @@ public class App {
                         {
                             currentToken = TokenType.COMMENT;
                             state = StateType.INCOMMENT;
-                            commentStartLine = i;
+                            commentStartLine = i+1;
                         }    
                         else
                         {
@@ -216,7 +216,7 @@ public class App {
                 {
                     if(error)
                     {
-                        errorStr += "UN Recongnized Token \"" + lines.get(i).substring(startChar,endChar).trim() + "\" at line " + i + '\n';
+                        errorStr += "UN Recongnized Token \"" + lines.get(i).substring(startChar,endChar).trim() + "\" at line " + (i+1) + '\n';
                         break;
                     }
                     else
