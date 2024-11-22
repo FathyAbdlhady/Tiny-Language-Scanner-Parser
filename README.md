@@ -2,7 +2,7 @@
 
 
 
-$\color{red}{Note\ :\ “modules”\ file\ in\ “Executable/jdk-19/lib”\ does\ not\ download\ when\ cloning\ }$
+$\color{red}{Note\ :\ “modules”\ file\ in\ “Scanner/Executable/jdk-19/lib”\ does\ not\ download\ when\ cloning\ }$
 $\color{red}{because\ file\ is\ bigger\ than\ 100MB\ ,\ So\ you\ need\ to\ download\ it\ alone\ to\ be\ downloaded }$
 
 
