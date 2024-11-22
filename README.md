@@ -32,40 +32,40 @@ end
 ### Sample Output1:
 
 ```
-String Value 	 Token Type
-------------       ----------
-read			   READ
-x			   IDENTIFIER
-;			   SEMICOLON
-if			   IF
-0			   NUMBER
-<			   LESSTHAN
-x			   IDENTIFIER
-then			   THEN
-fact			   IDENTIFIER
-:=			   ASSIGN
-1			   NUMBER
-;			   SEMICOLON
-repeat			   REPEAT
-fact			   IDENTIFIER
-:=			   ASSIGN
-fact			   IDENTIFIER
-*			   MULT
-x			   IDENTIFIER
-;			   SEMICOLON
-x			   IDENTIFIER
-:=			   ASSIGN
-x			   IDENTIFIER
--			   MINUS
-1			   NUMBER
-until			   UNTIL
-x			   IDENTIFIER
-=			   EQUAL
-0			   NUMBER
-;			   SEMICOLON
-write			   WRITE
-fact			   IDENTIFIER
-end			   END
+String Value     Token Type
+------------     ----------
+read             READ			   
+x                IDENTIFIER			   
+;                SEMICOLON
+if               IF
+0                NUMBER
+<                LESSTHAN
+x                IDENTIFIER
+then             THEN
+fact             IDENTIFIER
+:=               ASSIGN
+1                NUMBER
+;                SEMICOLON
+repeat           REPEAT
+fact             IDENTIFIER
+:=               ASSIGN
+fact             IDENTIFIER
+*                MULT
+x                IDENTIFIER
+;                SEMICOLON
+x                IDENTIFIER
+:=               ASSIGN
+x                IDENTIFIER
+-                MINUS
+1                NUMBER
+until            UNTIL
+x                IDENTIFIER
+=                EQUAL
+0                NUMBER
+;                SEMICOLON
+write            WRITE
+fact             IDENTIFIER
+end              END
 
 
 ```
@@ -86,13 +86,13 @@ Error
 UN Recongnized Token "x@" at line 1
 
 
-String Value 	     Token Type
-------------       ----------
-read			         READ
-x			             IDENTIFIER
-;			             SEMICOLON
-if			           IF
-0			             NUMBER
-<			             LESSTHAN
+String Value 	   Token Type
+------------     ----------
+read              READ
+x                IDENTIFIER
+;                SEMICOLON
+if                IF
+0                NUMBER
+<                LESSTHAN
 
 ```
