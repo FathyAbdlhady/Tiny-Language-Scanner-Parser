@@ -13,5 +13,5 @@ Do the following steps:
 
 
 
-<img src="semicompiler.png" width=600 height=600/>
+
 
