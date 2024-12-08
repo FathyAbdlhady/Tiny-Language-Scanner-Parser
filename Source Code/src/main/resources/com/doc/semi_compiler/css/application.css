@@ -1,0 +1,33 @@
+.menu-bar {
+    -fx-background-color:white;
+}
+
+.menu {
+    -fx-background-color:transparent;
+    -fx-alignment: center;
+    -fx-font-size: 13;
+}
+
+.menu .text , .menu-item .text {
+    -fx-fill: black;
+}
+
+.menu-item {
+    -fx-background-color:transparent;
+}
+
+
+.button {
+    -fx-background-color: transparent; 
+    -fx-border-color: transparent;   
+    -fx-padding: 5;                   
+}
+
+.button:hover , .menu:hover , .menu-item:hover , .menu:showing {
+    -fx-background-color: #e0e0e0;    
+}
+
+.root {
+    -fx-background-color:#ededed;
+}
+

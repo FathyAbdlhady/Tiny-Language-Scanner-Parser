@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.doc.semi_compiler.controller.Controller">
+   <children>
+      <MenuBar prefHeight="30.0" prefWidth="564.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem fx:id="menuItemNew" onAction="#newFile" text="New" />
+                  <MenuItem fx:id="menuItemOpen" mnemonicParsing="false" onAction="#chooseFileExplorer" text="Open" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="menuItemSave" mnemonicParsing="false" onAction="#saveFile" text="Save file" />
+                  <MenuItem fx:id="menuItemSaveAs" mnemonicParsing="false" onAction="#saveFileAs" text="Save file as" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="menuItemExit" mnemonicParsing="false" onAction="#exit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" style="-fx-alignment: center; -fx-font-size: 13;" text="Edit">
+            <items>
+                  <MenuItem fx:id="menuItemCut" mnemonicParsing="false" onAction="#cutText" text="Cut            Ctrl+X" />
+                  <MenuItem fx:id="menuItemCopy" mnemonicParsing="false" onAction="#copyText" text="Copy         Ctrl+C" />
+                  <MenuItem fx:id="menuItemPaste" mnemonicParsing="false" onAction="#pasteText" text="Paste         Ctrl+V" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" style="-fx-alignment: center; -fx-font-size: 13;" text="Help">
+            <items>
+              <MenuItem fx:id="menuItemAbout" mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ToolBar layoutY="30.0" prefHeight="64.0" prefWidth="564.0">
+         <items>
+            <Button fx:id="buttonNewFile" mnemonicParsing="false" onMouseClicked="#newFile" />
+            <Button fx:id="buttonOpen" mnemonicParsing="false" onMouseClicked="#chooseFileExplorer" />
+            <Separator fx:id="sese" orientation="VERTICAL" prefHeight="0.0" prefWidth="0.0" />
+            <Button fx:id="buttonSave" mnemonicParsing="false" onMouseClicked="#saveFile" />
+            <Button fx:id="buttonSaveAs" mnemonicParsing="false" onMouseClicked="#saveFileAs" />
+            <Separator orientation="VERTICAL" prefHeight="0.0" prefWidth="0.0" />
+            <Button fx:id="buttonCut" mnemonicParsing="false" onMouseClicked="#cutText" />
+            <Button fx:id="buttonCopy" mnemonicParsing="false" onMouseClicked="#copyText" />
+            <Button fx:id="buttonPaste" mnemonicParsing="false" onMouseClicked="#pasteText" />
+         </items>
+      </ToolBar>
+      <Separator layoutY="93.0" prefHeight="3.0" prefWidth="564.0" />
+      <TextArea fx:id="areaCode" layoutX="14.0" layoutY="108.0" prefHeight="307.0" prefWidth="382.0" text="" />
+       <Button fx:id="buttonScanner" layoutX="442.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#scanner" prefHeight="54.0" prefWidth="75.0" />
+      <Separator layoutX="396.0" layoutY="268.0" prefHeight="0.0" prefWidth="167.0" />
+      <Button fx:id="buttonParser" layoutX="442.0" layoutY="318.0" mnemonicParsing="false" onMouseClicked="#parser" prefHeight="54.0" prefWidth="75.0" />
+      <TextArea fx:id="areaConsole" editable="false" layoutX="13.0" layoutY="420.0" prefHeight="136.0" prefWidth="539.0" />
+   </children>
+</AnchorPane>
