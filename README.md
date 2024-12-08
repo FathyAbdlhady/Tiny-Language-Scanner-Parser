@@ -1,6 +1,6 @@
 ## TINY language Scanner & Parser project
 
-
+To run the exe file
 Please download jdk 18.0.1.1 and javafx 21 and set enviroment variables
 Do the following steps:
 <ol>
@@ -10,6 +10,7 @@ Do the following steps:
       <li>Create a new variable with JAVA_HOME, and browse for the path that has the JDK in it (i.e C:\Program Files\Java\jdk-18)</li>
       <li>Create a new variable with PATHTOFX, and browse for the path that has the JDK in it (i.e C:\Program Files\Java\javafx-sdk-21.0.2\lib)</li>
 </ol>
+
 
 
 
