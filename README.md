@@ -1,7 +1,7 @@
 ## TINY language Scanner & Parser project
 
 To run the exe file
-Please download jdk 18.0.1.1 and javafx 21 and set enviroment variables
+Please download jdk 18 and javafx 21 and set enviroment variables
 Do the following steps:
 <ol>
       <li>Search in windows bar for "edit system enviornment variables"</li>
