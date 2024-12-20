@@ -3,6 +3,10 @@ package com.doc.semi_compiler.compiler;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/*
+    Author: - Omar Saleh
+            - Ahmad Mahfouz
+*/
 public class Scanner {
 
     enum TokenType {
